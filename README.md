@@ -2,5 +2,5 @@
 
 will support:
 - Daly / XENES / HI-BMS / BullTron BMS
-- 100 Balance
+- 100 Balance / Daly H/K/M/S Series
 - JK BMS
