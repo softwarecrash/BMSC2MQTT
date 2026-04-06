@@ -1,9 +1,5 @@
 # BMSC2MQTT
 
-User documentation for the BMSC2MQTT firmware project.
-
-This README is intended for end users (setup, operation, and daily usage).
-
 ## What The Device Does
 
 - Reads BMS data via Bluetooth (BLE) or wired (UART/RS485), depending on BMS type.
