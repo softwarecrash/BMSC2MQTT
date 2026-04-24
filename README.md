@@ -133,6 +133,7 @@ The base topic is configurable (default: `BMSC2MQTT`).
 Examples (publish, retained):
 - `<topic>/WiFiStatus`
 - `<topic>/RSSI`
+- `<topic>/IP`
 - `<topic>/DS18B20/<index>`
 - `<topic>/bms/device`
 - `<topic>/bms/connected`
@@ -155,12 +156,11 @@ Payloads:
 ## License (What It Means For Users)
 
 Without a license:
-- Basic values stay visible (voltage, current, SOC, connection state, etc.).
-- Detailed values can be limited (for example detailed cell/temperature data).
+- Visible BMS values are limited to connection state, SOC, voltage, current, calculated power and charge/discharge MOS status.
 - Write functions (SOC/MOS) are locked.
 
 With a valid license:
-- Full data set (depending on BMS type).
+- Adds temperature, remaining capacity, ETA, cycles, operation mode, warnings, cell details and relay functions.
 - Write functions available if supported by the provider.
 
 ## Firmware Update And Backup
