@@ -26,7 +26,7 @@ Use the row that matches the firmware file / hardware variant you flashed.
 | `wemos_d1_mini32_DBG` | GPIO2 | GPIO23 | GPIO19 | -1 | GPIO17 | GPIO32 | GPIO4 | GPIO16 | GPIO15 |
 | `esp32c3` | GPIO10 | GPIO3 | GPIO2 | -1 | GPIO8 | GPIO4 | GPIO5 | GPIO6 | GPIO7 |
 | `esp32s3` | GPIO10 | GPIO3 | GPIO2 | -1 | GPIO8 | GPIO4 | GPIO5 | GPIO6 | GPIO7 |
-| `wt32-eth1` | GPIO2 | -1 | -1 | -1 | GPIO17 | GPIO32 | GPIO4 | GPIO16 | GPIO5 |
+| `wt32-eth1` | GPIO2 | -1 | -1 | -1 | GPIO17 | GPIO32 | GPIO4 | GPIO33 | GPIO5 |
 | `waveshare_esp32_s3_eth` | -1 | GPIO17 | GPIO18 | GPIO15 | GPIO17 | GPIO21 | GPIO4 | GPIO16 | GPIO7 |
 
 Notes:
@@ -172,6 +172,8 @@ Ethernet pins are fixed by the hardware variant and should not be reused for BMS
 | RMII CRS DV | GPIO27 |
 | RMII RXD0 | GPIO25 |
 | RMII RXD1 | GPIO26 |
+
+On `wt32-eth1`, `Relay 1` defaults to GPIO33 (`485_EN`) so it does not conflict with `ETH power` on GPIO16.
 
 Because GPIO19 and GPIO23 are used by Ethernet on WT32-ETH01, the default BMS UART pins are disabled in the `wt32-eth1` firmware variant.
 
