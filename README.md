@@ -21,6 +21,7 @@
 | TDT | Yes | Yes | No (read-only, BLE unlock available) |
 
 ![BMS Wizzard 1](readme/bms wizzard 1.jpg)
+<img src='readme/bms wizzard 1.png' wight='100%'>
 
 Important:
 - Write functions are only active when:
