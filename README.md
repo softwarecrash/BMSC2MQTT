@@ -20,6 +20,8 @@
 | JBD | Yes | No | MOS yes, SOC no |
 | TDT | Yes | Yes | No (read-only, BLE unlock available) |
 
+![BMS Wizzard 1](readme/bms wizzard 1.jpg)
+
 Important:
 - Write functions are only active when:
   - a valid license is present,
