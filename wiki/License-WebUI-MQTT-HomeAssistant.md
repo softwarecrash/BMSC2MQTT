@@ -26,6 +26,7 @@ Important:
 - ETA / remaining time
 - Charge cycles
 - Remaining capacity
+- Total Ah charge / discharge counters on supported BMS types
 - Warnings and error messages
 - Cell voltage chart
 - Operation mode
@@ -43,7 +44,7 @@ Examples of license dependent values:
 
 | Area | Examples |
 | --- | --- |
-| Live data | temperature, remaining capacity, ETA, cycles |
+| Live data | temperature, remaining capacity, total Ah charge/discharge, ETA, cycles |
 | Cell data | cell voltages, min/max cell, cell difference |
 | Temperatures | BMS temperature sensors |
 | Errors | decoded BMS error text |

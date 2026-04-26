@@ -22,6 +22,8 @@ Published topics are retained. Examples:
 | `<topic>/bms/live/soc` | State of charge in % |
 | `<topic>/bms/live/power_in` | Charge MOS / charge allowed |
 | `<topic>/bms/live/power_out` | Discharge MOS / discharge allowed |
+| `<topic>/bms/live/total_ah_charge` | Cumulative charged capacity in Ah, if the active BMS provides it |
+| `<topic>/bms/live/total_ah_discharge` | Cumulative discharged capacity in Ah, if the active BMS provides it |
 | `<topic>/bms/meta/*` | BMS metadata |
 | `<topic>/bms/cells/*` | Cell voltages |
 | `<topic>/bms/temps/*` | BMS temperature sensors |
@@ -76,4 +78,4 @@ After saving MQTT settings, the ESP reboots. When MQTT connects, discovery confi
 
 ## License visibility
 
-Without a license, only the basic BMS values are published. With a valid license, additional temperatures, cell data, errors, ETA, cycles and relay related values become visible.
+Without a license, only the basic BMS values are published. With a valid license, additional temperatures, cell data, errors, ETA, cycles, cumulative Ah counters and relay related values become visible.

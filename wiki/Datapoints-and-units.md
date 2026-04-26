@@ -22,6 +22,8 @@ This page lists the common BMSC2MQTT values and their MQTT topics. Available val
 | `bms/live/soc` | `<topic>/bms/live/soc` | % | State of charge |
 | `bms/live/temperature` | `<topic>/bms/live/temperature` | C | Average or pack temperature |
 | `bms/live/remaining_capacity` | `<topic>/bms/live/remaining_capacity` | Ah | Remaining capacity |
+| `bms/live/total_ah_charge` | `<topic>/bms/live/total_ah_charge` | Ah | Cumulative charged capacity, currently available on Daly 100B / new Daly map |
+| `bms/live/total_ah_discharge` | `<topic>/bms/live/total_ah_discharge` | Ah | Cumulative discharged capacity, currently available on Daly 100B / new Daly map |
 | `bms/live/eta_minutes` | `<topic>/bms/live/eta_minutes` | min | Estimated remaining time |
 | `bms/live/operation_mode` | `<topic>/bms/live/operation_mode` | text | BMS operation mode |
 | `bms/live/cell_balance` | `<topic>/bms/live/cell_balance` | boolean | Cell balancing state |
@@ -53,4 +55,4 @@ This page lists the common BMSC2MQTT values and their MQTT topics. Available val
 
 ## License visibility
 
-Without a license, MQTT and Home Assistant only expose the basic values. Cell details, BMS temperatures, ETA, cycles and decoded errors require a valid license.
+Without a license, MQTT and Home Assistant only expose the basic values. Cell details, BMS temperatures, ETA, cycles, cumulative Ah counters and decoded errors require a valid license.
