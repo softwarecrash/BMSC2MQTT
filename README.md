@@ -20,8 +20,9 @@
 | JBD | Yes | No | MOS yes, SOC no |
 | TDT | Yes | Yes | No (read-only, BLE unlock available) |
 
-![BMS Wizzard 1](readme/bms wizzard 1.jpg)
-<img src='readme/bms wizzard 1.png' wight='100%'>
+<img src='readme/bms wizzard 1.png' wight='50%'>
+<img src='readme/bms wizzard 2.png' wight='50%'>
+<img src='readme/device settings.png' wight='50%'>
 
 Important:
 - Write functions are only active when:
@@ -46,6 +47,8 @@ Important:
    - Save
 8. Check live values on the status page.
 
+<img src='readme/wifi.png' wight='50%'>
+
 Note:
 - In normal WiFi mode, the device is also reachable via mDNS, for example `http://BMSC2MQTT.local` (name is configurable).
 
@@ -58,6 +61,8 @@ Note:
 - `Firmware Update`: online update (GitHub) and manual OTA update, plus backup/restore.
 - `License Settings`: manage license key.
 - `Web Serial`: live debug log in browser.
+
+<img src='readme/status.png' wight='50%'>
 
 ## BMS Setup: Wizard + Advanced
 
@@ -156,6 +161,8 @@ Payloads:
 - `power_in`, `power_out`: `true/false`, `1/0`, `on/off`
 - `null`: resets the control value
 
+<img src='readme/mqtt.png' wight='50%'>
+
 ## License (What It Means For Users)
 
 Without a license:
@@ -165,6 +172,8 @@ Without a license:
 With a valid license:
 - Adds temperature, remaining capacity, ETA, cycles, operation mode, warnings, cell details and relay functions.
 - Write functions available if supported by the provider.
+
+<img src='readme/license.png' wight='50%'>
 
 ## Firmware Update And Backup
 
